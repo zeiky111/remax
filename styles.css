@@ -178,6 +178,11 @@ a{ text-decoration:none; color:inherit; }
   background-size:cover;
   background-position:center 20%;
 }
+.hero-bg-color{
+  opacity:0;
+  transition:opacity .6s ease;
+}
+.hero:hover .hero-bg-color{ opacity:1; }
 .hero-overlay{
   position:absolute; inset:0;
   background:linear-gradient(90deg, rgba(0,62,165,.1) 43%, rgba(0,62,165,0) 63%);

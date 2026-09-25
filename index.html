@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Glennis DR Nitafan &#8211; High Level Real Estate Broker</title>
+<meta name="description" content="Let me help you get your next dream home. Asset and wealth management through the best real estate brokers in the Philippines." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Oswald:wght@300;400;500;600&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-col">
+      <img src="assets/logo.png" alt="Glennis Nitafan" class="logo-img" />
+    </a>
+    <button type="button" class="menu-btn" id="menuBtn">MENU</button>
+  </div>
+</header>
+
+<!-- Slide-in menu -->
+<div class="menu-overlay" id="menuOverlay">
+  <button class="menu-overlay-close" id="menuCloseBtn" aria-label="Close menu">&times;</button>
+  <div class="menu-overlay-inner">
+    <img src="assets/logo-popup.png" alt="Glennis Nitafan" class="menu-overlay-logo" />
+    <nav class="menu-overlay-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="index.html#testimonials">Testimonials</a>
+      <div class="menu-has-sub">
+        <a href="property-listing.html">Property Listing <i class="fas fa-caret-down"></i></a>
+        <div class="menu-sub">
+          <a href="residential-listings.html">Residential Listings</a>
+          <a href="condo-properties.html">Condo Properties</a>
+          <a href="commercial-listings.html">Commercial Listings</a>
+          <a href="lot-only-listings.html">Lot Only Listings</a>
+          <a href="office-listing.html">Office Listing</a>
+          <a href="retail-listing.html">Retail Listing</a>
+          <a href="industrial-listing.html">Industrial Listing</a>
+        </div>
+      </div>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <h3 class="menu-overlay-heading">Sign up to be notified first with the best property listings</h3>
+    <form class="menu-overlay-form" action="https://formsubmit.co/gnitafan@remax.net" method="POST">
+      <input type="text" name="name" placeholder="Name" />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="hidden" name="_subject" value="New listing sign-up (menu)" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="THANKYOU_PLACEHOLDER" data-thankyou="true" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+<button class="menu-backdrop" id="menuBackdrop"></button>
+
+<main>
+
+  <!-- Hero: full-bleed B&W photo of Glennis, with a floating card on top -->
+  <section class="hero">
+    <div class="hero-bg" style="background-image:url('assets/hero-photo-bw.jpg')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-card" style="background-image:url('assets/hero-card-bg.jpg')">
+      <div class="hero-card-overlay"></div>
+      <div class="hero-card-content">
+        <p class="hero-eyebrow" data-anim="fadeIn">LET ME HELP YOU</p>
+        <h2 class="hero-line1" data-anim="fadeIn">Get Your Next</h2>
+        <h1 class="hero-line2" data-anim="fadeIn">DREAM HOME</h1>
+        <div class="hero-divider">
+          <span class="hero-divider-line"></span>
+          <span class="hero-divider-icon"><i class="fas fa-home"></i></span>
+          <span class="hero-divider-line"></span>
+        </div>
+        <p class="hero-sub1" data-anim="fadeInUp">ASSET AND WEALTH MANAGEMENT</p>
+        <p class="hero-sub2" data-anim="fadeInUp">THROUGH THE</p>
+        <p class="hero-sub3" data-anim="fadeInUp">BEST REAL ESTATE BROKERS IN THE PHILIPPINES</p>
+        <a href="#learn-more" class="btn btn-primary" data-anim="fadeInUp">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe form -->
+  <section class="subscribe-section">
+    <div class="subscribe-inner">
+      <h2 class="subscribe-title">Subscribe Here For FREE 5-Step Process to Ensure A Property Gets Sold Fast!</h2>
+      <form class="subscribe-form" action="https://formsubmit.co/gnitafan@remax.net" method="POST">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+      <input type="hidden" name="_subject" value="5-Step Process sign-up" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="THANKYOU_PLACEHOLDER" data-thankyou="true" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Featured Listings -->
+  <section class="listings-section" id="learn-more">
+    <div class="container">
+      <div class="heading-block">
+        <h2 class="ghost-heading" data-anim="fadeInUp">FEATURED</h2>
+        <h2 class="section-title" data-anim="fadeInDown">Featured Listings</h2>
+      </div>
+      <div class="listings-grid" data-anim="fadeIn">
+        <a class="listing-card" href="property-listing.html"><img src="assets/listing-1.png" alt="Ayala Heights Townhomes" /></a>
+        <a class="listing-card" href="property-listing.html"><img src="assets/listing-2.jpg" alt="TPLEX Gerona Exit Commercial Industrial" /></a>
+        <a class="listing-card" href="property-listing.html"><img src="assets/listing-3.jpg" alt="Mixed-Use fronting Orchard Golf Cavite" /></a>
+        <a class="listing-card" href="property-listing.html"><img src="assets/listing-4.jpg" alt="Pacific Plaza Towers" /></a>
+        <a class="listing-card" href="property-listing.html"><img src="assets/listing-5.jpg" alt="Bayview Village Warehouse Office" /></a>
+        <a class="listing-card" href="property-listing.html"><img src="assets/listing-6.jpg" alt="Tagaytay Highway Lot" /></a>
+        <a class="listing-card" href="property-listing.html"><img src="assets/listing-7.png" alt="Greenhills House and Lot" /></a>
+        <a class="listing-card" href="property-listing.html"><img src="assets/listing-8.png" alt="Regent Parkway Penthouse" /></a>
+      </div>
+      <div class="center-btn">
+        <a href="property-listing.html" class="btn btn-outline" data-anim="fadeInDown">View More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise / About -->
+  <section class="expertise-section">
+    <div class="expertise-grid">
+      <div class="expertise-photo" style="background-image:url('assets/expertise-bg-painting.jpg')"></div>
+      <div class="expertise-content">
+        <div class="heading-block heading-block-left">
+          <h2 class="ghost-heading ghost-heading-left">EXPERTISE</h2>
+          <span class="eyebrow-sub">Why Work With Me</span>
+        </div>
+        <h2 class="expertise-title" data-anim="fadeIn">What does your dream home look like?</h2>
+        <div class="expertise-text" data-anim="fadeIn">
+          <p>As children, we were often asked to talk about what our dream homes were like.</p>
+          <p>Most of us drew mansions with sprawling gardens and a pool in the backyard.</p>
+          <p>And as we grow older, we <strong>realize how challenging</strong> it is to <strong>find the right home</strong> in the <strong>best locations.</strong></p>
+          <p><em><strong>Hi, I&#8217;m Glennis,</strong></em> and my goal is to <strong>help you find the best home</strong> in the best location for you.</p>
+          <p>Now I know finding the right home can be a challenge.</p>
+          <p>It&#8217;s not easy to find <strong>one that fits your requirements</strong> at the <strong>price that matches</strong> yours.</p>
+          <p>That&#8217;s where I can help.</p>
+          <p>As a <strong>certified</strong> real estate <strong>broker</strong> with a <strong>huge network</strong> of the <strong>best real estate brokers in the Philippines</strong>, I can help you find the perfect home for you and your family.</p>
+          <p>Whether you&#8217;re looking for asset management services, <strong>buying or selling homes</strong>, or looking for your <strong>next investment</strong>, I can make it happen.</p>
+          <p>Let me know how I can help.</p>
+        </div>
+        <a href="about.html" class="btn btn-ghost" data-anim="fadeInUp"><i class="far fa-arrow-alt-circle-right"></i> More About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Thinking of Selling -->
+  <section class="selling-section" style="background-image:url('assets/selling-bg.jpg')">
+    <div class="selling-overlay"></div>
+    <div class="selling-content">
+      <h2 class="selling-title" data-anim="fadeInUp">Thinking of Selling?</h2>
+      <h2 class="selling-sub" data-anim="fadeIn">Our team can help you sell your property at the best price</h2>
+      <button type="button" class="btn btn-primary" id="openSellPopup" data-anim="fadeInUp">Message Us Here</button>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery-section">
+    <div class="heading-block">
+      <h2 class="ghost-heading">GALLERY</h2>
+      <h2 class="section-title" data-anim="fadeInDown">Image Gallery</h2>
+    </div>
+    <div class="gallery-carousel" id="galleryCarousel" data-anim="fadeIn">
+      <button class="gallery-arrow gallery-prev" aria-label="Previous">&#10094;</button>
+      <div class="gallery-viewport">
+        <div class="gallery-track" id="galleryTrack">
+          <figure><img src="assets/gallery-1.jpg" alt="G Nitafan with friends" /></figure>
+          <figure><img src="assets/gallery-2.jpg" alt="Glenn with Celebrities 1" /></figure>
+          <figure><img src="assets/gallery-3.jpg" alt="Glenn with Celebrities 2" /></figure>
+          <figure><img src="assets/gallery-4.jpg" alt="Glenn with Celebrities 4" /></figure>
+          <figure><img src="assets/gallery-5.jpg" alt="Glenn with team 2" /></figure>
+          <figure><img src="assets/gallery-6.jpg" alt="Glenn with team 4" /></figure>
+          <figure><img src="assets/gallery-7.jpg" alt="Glennis with investors 1" /></figure>
+          <figure><img src="assets/gallery-8.jpg" alt="IMG_1680" /></figure>
+          <figure><img src="assets/gallery-9.jpg" alt="IMG_3275" /></figure>
+          <figure><img src="assets/gallery-10.jpg" alt="IMG_3706" /></figure>
+          <figure><img src="assets/gallery-11.jpg" alt="IMG_7766" /></figure>
+        </div>
+      </div>
+      <button class="gallery-arrow gallery-next" aria-label="Next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Blog teaser -->
+  <section class="blog-section" style="background-image:url('assets/blog-bg.jpg')">
+    <div class="blog-overlay"></div>
+    <div class="blog-content">
+      <h2 class="blog-title" data-anim="fadeIn">In the blog</h2>
+      <div class="blog-text" data-anim="fadeInUp">
+        <p>Discover wealth management and asset management tips to help you grow and maximize your investments.</p>
+        <p>Get tips on how you could list your property for sale and offer it at the best price.</p>
+        <p>Too busy to take care of your properties? Let us help you get it done.</p>
+      </div>
+      <a href="blog.html" class="btn btn-primary" data-anim="fadeInUp"><i class="far fa-arrow-alt-circle-right"></i> Read the Articles</a>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="heading-block">
+      <h2 class="ghost-heading">TESTIMONIALS</h2>
+      <h2 class="section-title" data-anim="fadeInDown">What My Clients Say</h2>
+    </div>
+    <div class="testimonial-carousel" id="testimonialCarousel">
+      <button class="testimonial-arrow testimonial-prev" aria-label="Previous">&#10094;</button>
+      <div class="testimonial-viewport">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-slide">
+            <p class="testimonial-text">My wife and I were fortunate to have met Glenn when we were looking for a permanent residence in BGC 3 years ago. He's professional to deal with while also making the transaction have a certain personal feel to it. He goes the extra mile to help the transaction go as smooth as possible and he's definitely my go-to guy if I'm ever in the market for another condo. More than that, I now consider him a good friend I can call anytime.</p>
+            <cite class="testimonial-name">Binggy and Donna Lopez</cite>
+          </div>
+          <div class="testimonial-slide">
+            <p class="testimonial-text">Glennis was successful in finding us the right buyer for the property. We are grateful for Glennis&#8217; hard work and professionalism, and the very smooth handling of the transaction. I look forward to working with Glennis again, with my next real estate deal, hopefully very soon.</p>
+            <cite class="testimonial-name">Tony Abello</cite>
+          </div>
+          <div class="testimonial-slide">
+            <p class="testimonial-text">Glennis began by understanding the property, and the terms that we were asking, then he provided us with constructive and practical advice on what buyers would require from us as sellers, and how the market would realistically value the property. Glennis was very careful to respect our terms and worked hard to find the right buyer for us.</p>
+            <cite class="testimonial-name">Michelle Lim</cite>
+          </div>
+        </div>
+      </div>
+      <button class="testimonial-arrow testimonial-next" aria-label="Next">&#10095;</button>
+    </div>
+    <div class="testimonial-dots" id="testimonialDots"></div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer" style="background-image:url('assets/footer-bg.jpg')">
+  <div class="footer-overlay"></div>
+  <div class="footer-inner">
+    <img src="assets/logo-footer.png" alt="Glennis Nitafan" class="footer-logo" />
+    <h2 class="footer-newsletter-title">Get Updates Straight To Your Inbox</h2>
+    <form class="footer-form" action="https://formsubmit.co/gnitafan@remax.net" method="POST">
+      <input type="email" name="email" placeholder="Enter your email best address" required />
+      <input type="hidden" name="_subject" value="Newsletter subscription (footer)" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="THANKYOU_PLACEHOLDER" data-thankyou="true" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+      <button type="submit">Subscribe</button>
+    </form>
+    <h3 class="footer-social-title">Follow Me On Social Media</h3>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/glennisnitafan" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.linkedin.com/in/glennis-dr-nitafan/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/glennisnitafan" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="footer-bottom">
+      <a href="privacy-policy.html" class="footer-privacy">&bull; Privacy Policy</a>
+      <span class="footer-copy">&bull; &copy;2020 Glennis Nitafan</span>
+    </div>
+    <p class="footer-rights">ALL RIGHTS RESERVED.</p>
+  </div>
+</footer>
+
+<!-- Sell popup -->
+<div class="popup-overlay" id="sellPopup">
+  <div class="popup-box">
+    <button class="popup-close" id="sellPopupClose" aria-label="Close">&times;</button>
+    <img src="assets/logo-popup.png" alt="Glennis Nitafan" class="popup-logo" />
+    <h2 class="popup-title">With almost 50 years of combined experience, we are here to help you sell your property at the best price</h2>
+    <h3 class="popup-subtitle">Please fillout the form below and we will get back to you asap</h3>
+    <form class="popup-form" action="https://formsubmit.co/gnitafan@remax.net" method="POST" enctype="multipart/form-data">
+      <label>Name<input type="text" name="name" placeholder="Name" required /></label>
+      <div class="popup-form-row">
+        <label>Contact Number<input type="number" name="contact_number" placeholder="Contact Number" required /></label>
+        <label>Email<input type="email" name="email" placeholder="Email" required /></label>
+      </div>
+      <label>Property Location<input type="text" name="property_location" placeholder="Property Location" required /></label>
+      <fieldset>
+        <legend>Property Type</legend>
+        <label class="radio"><input type="radio" name="property_type" value="Commercial Space" required /> Commercial Space</label>
+        <label class="radio"><input type="radio" name="property_type" value="Lot Only" /> Lot Only</label>
+        <label class="radio"><input type="radio" name="property_type" value="House &amp; Lot" /> House &amp; Lot</label>
+        <label class="radio"><input type="radio" name="property_type" value="Condominium" /> Condominium</label>
+      </fieldset>
+      <label>Asking Price<input type="text" name="asking_price" placeholder="Property Price" required /></label>
+      <label>Amenities<textarea rows="3" name="amenities" placeholder="Features and Amenities"></textarea></label>
+      <label>Image Upload<input type="file" name="attachment" /></label>
+      <input type="hidden" name="_subject" value="Sell my property inquiry" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="THANKYOU_PLACEHOLDER" data-thankyou="true" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+      <button type="submit" class="btn btn-primary"><i class="fas fa-hand-pointer"></i> Submit My Details</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

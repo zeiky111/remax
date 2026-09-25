@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Property Listings &#8211; Glennis DR Nitafan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Oswald:wght@300;400;500;600&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="inner-pages.css" />
+</head>
+<body class="inner-page">
+
+<header class="site-header site-header-solid">
+  <div class="header-inner">
+    <a href="index.html" class="logo-col">
+      <img src="assets/logo.png" alt="Glennis Nitafan" class="logo-img" />
+    </a>
+    <button type="button" class="menu-btn menu-btn-dark" id="menuBtn">MENU</button>
+  </div>
+</header>
+
+<div class="menu-overlay" id="menuOverlay">
+  <button class="menu-overlay-close" id="menuCloseBtn" aria-label="Close menu">&times;</button>
+  <div class="menu-overlay-inner">
+    <img src="assets/logo-popup.png" alt="Glennis Nitafan" class="menu-overlay-logo" />
+    <nav class="menu-overlay-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="index.html#testimonials">Testimonials</a>
+      <div class="menu-has-sub">
+        <a href="property-listing.html" class="active">Property Listing <i class="fas fa-caret-down"></i></a>
+        <div class="menu-sub">
+          <a href="residential-listings.html">Residential Listings</a>
+          <a href="condo-properties.html">Condo Properties</a>
+          <a href="commercial-listings.html">Commercial Listings</a>
+          <a href="lot-only-listings.html">Lot Only Listings</a>
+          <a href="office-listing.html">Office Listing</a>
+          <a href="retail-listing.html">Retail Listing</a>
+          <a href="industrial-listing.html">Industrial Listing</a>
+        </div>
+      </div>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <h3 class="menu-overlay-heading">Sign up to be notified first with the best property listings</h3>
+    <form class="menu-overlay-form" action="https://formsubmit.co/gnitafan@remax.net" method="POST">
+      <input type="text" name="name" placeholder="Name" />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="hidden" name="_subject" value="New listing sign-up (menu)" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="THANKYOU_PLACEHOLDER" data-thankyou="true" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+<button class="menu-backdrop" id="menuBackdrop"></button>
+
+<main>
+
+  <!-- Listing hero -->
+  <section class="listing-hero" style="background-image:url('assets/listing-hero-bg.jpg')">
+    <div class="listing-hero-overlay"></div>
+    <div class="listing-hero-inner">
+      <p class="listing-hero-eyebrow">PREMIUM</p>
+      <h1 class="listing-hero-title">Property Listings</h1>
+      <div class="listing-search">
+        <input type="text" placeholder="Search here..." />
+        <button type="button" aria-label="Search"><i class="fas fa-search"></i></button>
+      </div>
+      <nav class="listing-cat-nav">
+            <a href="condo-properties.html"><i class="fas fa-building"></i> CONDOMINIUM</a>
+            <a href="residential-listings.html"><i class="fas fa-home"></i> RESIDENTIAL</a>
+            <a href="commercial-listings.html"><i class="fas fa-store"></i> COMMERCIAL</a>
+            <a href="lot-only-listings.html"><i class="fas fa-map-marker-alt"></i> LOT ONLY</a>
+            <a href="industrial-listing.html"><i class="fas fa-industry"></i> INDUSTRIAL</a>
+            <a href="retail-listing.html"><i class="fas fa-cash-register"></i> RETAIL</a>
+            <a href="office-listing.html"><i class="fas fa-desktop"></i> OFFICE</a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Listings + sidebar -->
+  <section class="listing-body">
+    <div class="listing-body-grid">
+      <div class="listing-main">
+        <div class="listing-empty">No property listings found in this category yet. Please check back soon, or contact Glennis directly for the latest available properties.</div>
+      </div>
+      <aside class="listing-sidebar">
+        <h3>Thinking of Selling?</h3>
+        <p class="listing-sidebar-sub">Add Your Heading Text Here</p>
+        <button type="button" class="btn btn-outline listing-sidebar-btn" id="openSellPopup">Message Us Here</button>
+
+        <p class="listing-sidebar-recent">Recent Article</p>
+        <a href="blog.html" class="recent-article-card">
+          <img src="assets/recent-article.jpg" alt="7 Reasons Why Project Selling Is the Better Route To Start A Real Estate Career" />
+          <h4>7 Reasons Why Project Selling Is the Better Route To Start A Real Estate Career</h4>
+          <p>7 Reasons Why Project Selling Is the Better Route To Start A Real Estate Career New brokers and agents have asked me where to start&#8230;</p>
+          <span class="recent-article-readmore">READ MORE &raquo;</span>
+          <span class="recent-article-date">March 29, 2026</span>
+        </a>
+        <a href="contact.html" class="btn btn-ghost listing-sidebar-contact"><i class="fas fa-phone"></i> Contact Us</a>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" style="background-image:url('assets/footer-bg.jpg')">
+  <div class="footer-overlay"></div>
+  <div class="footer-inner">
+    <img src="assets/logo-footer.png" alt="Glennis Nitafan" class="footer-logo" />
+    <h2 class="footer-newsletter-title">Get Updates Straight To Your Inbox</h2>
+    <form class="footer-form" action="https://formsubmit.co/gnitafan@remax.net" method="POST">
+      <input type="email" name="email" placeholder="Enter your email best address" required />
+      <input type="hidden" name="_subject" value="Newsletter subscription (footer)" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="THANKYOU_PLACEHOLDER" data-thankyou="true" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+      <button type="submit">Subscribe</button>
+    </form>
+    <h3 class="footer-social-title">Follow Me On Social Media</h3>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/glennisnitafan" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.linkedin.com/in/glennis-dr-nitafan/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/glennisnitafan" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="footer-bottom">
+      <a href="privacy-policy.html" class="footer-privacy">&bull; Privacy Policy</a>
+      <span class="footer-copy">&bull; &copy;2020 Glennis Nitafan</span>
+    </div>
+    <p class="footer-rights">ALL RIGHTS RESERVED.</p>
+  </div>
+</footer>
+
+<div class="popup-overlay" id="sellPopup">
+  <div class="popup-box">
+    <button class="popup-close" id="sellPopupClose" aria-label="Close">&times;</button>
+    <img src="assets/logo-popup.png" alt="Glennis Nitafan" class="popup-logo" />
+    <h2 class="popup-title">With almost 50 years of combined experience, we are here to help you sell your property at the best price</h2>
+    <h3 class="popup-subtitle">Please fillout the form below and we will get back to you asap</h3>
+    <form class="popup-form" action="https://formsubmit.co/gnitafan@remax.net" method="POST" enctype="multipart/form-data">
+      <label>Name<input type="text" name="name" placeholder="Name" required /></label>
+      <div class="popup-form-row">
+        <label>Contact Number<input type="number" name="contact_number" placeholder="Contact Number" required /></label>
+        <label>Email<input type="email" name="email" placeholder="Email" required /></label>
+      </div>
+      <label>Property Location<input type="text" name="property_location" placeholder="Property Location" required /></label>
+      <fieldset>
+        <legend>Property Type</legend>
+        <label class="radio"><input type="radio" name="property_type" value="Commercial Space" required /> Commercial Space</label>
+        <label class="radio"><input type="radio" name="property_type" value="Lot Only" /> Lot Only</label>
+        <label class="radio"><input type="radio" name="property_type" value="House &amp; Lot" /> House &amp; Lot</label>
+        <label class="radio"><input type="radio" name="property_type" value="Condominium" /> Condominium</label>
+      </fieldset>
+      <label>Asking Price<input type="text" name="asking_price" placeholder="Property Price" required /></label>
+      <label>Amenities<textarea rows="3" name="amenities" placeholder="Features and Amenities"></textarea></label>
+      <label>Image Upload<input type="file" name="attachment" /></label>
+      <input type="hidden" name="_subject" value="Sell my property inquiry" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="THANKYOU_PLACEHOLDER" data-thankyou="true" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+      <button type="submit" class="btn btn-primary"><i class="fas fa-hand-pointer"></i> Submit My Details</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
